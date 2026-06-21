@@ -1,0 +1,50 @@
+name: finance_manager
+description: تطبيق إدارة المدفوعات والمقبوضات
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # قاعدة البيانات
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # التنسيق والتاريخ
+  intl: ^0.18.1
+  
+  # رفع الصور
+  image_picker: ^1.0.4
+  
+  # مسارات الملفات
+  path_provider: ^2.1.0
+  
+  # مشاركة الملفات
+  share_plus: ^7.2.1
+  
+  # إنشاء PDF
+  pdf: ^3.10.4
+  printing: ^5.11.1
+  
+  # أيقونات إضافية
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # إذا أردت إضافة خط Cairo للغة العربية
+  # fonts:
+  #   - family: Cairo
+  #     fonts:
+  #       - asset: fonts/Cairo-Regular.ttf
+  #       - asset: fonts/Cairo-Bold.ttf
+  #         weight: 700
